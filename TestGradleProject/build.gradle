@@ -23,6 +23,7 @@ dependencies {
      compile 'org.testng:testng:6.9.10'
      compile 'org.jbehave:jbehave-core:3.4.1'
      compile 'org.springframework:spring-webmvc:4.1.6.RELEASE' 
+     compile ('org.jbehave.web:jbehave-web-selenium:3.6-beta-2')
 }
 
 test {

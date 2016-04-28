@@ -11,7 +11,7 @@ public class HomePageMXI {
 	@FindBy(id = "j_password")
 	private WebElement passwordText;
 
-	@FindBy(id = "LinkSignIn")
+	@FindBy(id = "idButtonLogin")
 	private WebElement bottonSignIn;
 
 	public void logIn(String user, String password) {
